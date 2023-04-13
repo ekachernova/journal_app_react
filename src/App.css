@@ -1,26 +1,47 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700;1,800&display=swap');
 
 .App {
   text-align: center;
   font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
-#FormTitel {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 10px;
+
+.App-titel {
+  font-weight: 800;
 }
+.EntryTitel {
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 #form {
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+label {
+  text-align: left;
+  font-size: 16px;
+  font-weight:300;
+  margin-bottom: 10px;
 }
 
 #motto__input {
-  /* width: 336px; */
   height: 62px;
   margin-bottom: 40px;
+  border: 1px solid;
+  border-color: lightgray;
+  border-radius: 8px;
+}
 
+#notes__input {
+  height: 124px;
+  margin-bottom: 40px;
+  border: 1px solid;
+  border-color: lightgray;
+  border-radius: 8px;
 }
 

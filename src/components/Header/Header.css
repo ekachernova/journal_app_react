@@ -7,9 +7,9 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color:#252629;
-    font-size: 16px;
-    font-weight:800;
-    line-height: 18px;
+    font-size: 12px;
+    font-weight:600;
+    line-height: 16px;
     letter-spacing: 0px;
     display: flex;
     flex-direction: column;

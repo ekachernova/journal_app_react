@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <Header/>
       <div  className ="EntryForm">
-      <h2 className = "EntryTitel">NEW ENTRY</h2>
+      <p className = "EntryTitel">NEW ENTRY</p>
       <form id = "form" name ="form" type = "submit">
         <label forHtml = "motto__input">
           Motto

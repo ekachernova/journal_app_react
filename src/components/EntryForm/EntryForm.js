@@ -1,18 +1,24 @@
-import "./EntryForm.css";
-import "./"
-export default function EntryForm () {
+import "../EntryForm/EntryForm.css";
+
+export const EntryForm = () => {
     return (
-        <>
-        <h2>New Entry</h2>
-        <form>
-            <label forHtml = "entry__input">
+        <div className ="EntryForm">
+            <p className = "EntryTitel">NEW ENTRY</p>
+            <form id = "form" name ="form" type = "submit">
+            <label forHtml = "motto__input">
                 Motto
             </label>
-            <input type = "text" id = "entry__input" name = "entry__input">
-
+            <input name= "motto__input" type = "text" id = "motto__input">
             </input>
-        </form>
-        
-        </>
+            <label forHtml = "notes__input">
+                 Notes
+            </label>
+            <input name = "notes__input" type="text" id = "notes__input">
+            </input>
+        <button>
+          Create
+        </button>
+      </form>
+        </div>
     )
 }

@@ -15,9 +15,6 @@ export const EntryForm = () => {
             </label>
             <input name = "notes__input" type="text" id = "notes__input">
             </input>
-        <button>
-          Create
-        </button>
       </form>
         </div>
     )
